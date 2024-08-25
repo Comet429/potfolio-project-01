@@ -21,6 +21,10 @@ p {
   line-height: 30px;
 }
 
+.navbar {
+  background: #a2a8d3;
+}
+
 .nunito-hero {
   font-family: var(--font-family-heading);
   font-optical-sizing: auto;
@@ -29,7 +33,7 @@ p {
 }
 
 .hero {
-  background: #f9f7fe;
+  background: #e7eaf6;
   text-align: center;
   padding: 160px 20px;
   margin: auto;
@@ -69,6 +73,13 @@ p {
   border-radius: 4px;
 }
 
+.about-head {
+  background: #e7eaf6;
+  text-align: center;
+  padding: 160px 20px;
+  margin: auto;
+}
+
 .description-yogurt-project {
   padding: 120px 30px;
 }
@@ -90,4 +101,32 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.about-container {
+  padding: 60px 20px;
+}
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 25px;
+  color: var(--main-branding);
+  background: white;
+}
+
+.email-link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+}
+
+.coded {
+  text-align: center;
+  font-weight: normal;
 }
