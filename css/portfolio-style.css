@@ -4,11 +4,21 @@
   --secondary-color: #272142;
 }
 
-h1,
-h2 {
+h1 {
   color: black;
   font-size: 96px;
   font-weight: bold;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 62px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .nunito-hero {
@@ -26,7 +36,7 @@ h2 {
 }
 
 .hero h2 {
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
   font-weight: normal;
 }
@@ -48,4 +58,36 @@ h2 {
 
 .btn :hover {
   color: var(--secondary-color);
+}
+
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  line-height: 27px;
+  font-size: 18px;
+  padding: 18px 30px;
+  border-radius: 4px;
+}
+
+.description-yogurt-project {
+  padding: 120px 30px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .hero {
+    padding: 18px 10px;
+  }
+
+  .description-yogurt-project {
+    padding: 0;
+    text-align: center;
+  }
 }
