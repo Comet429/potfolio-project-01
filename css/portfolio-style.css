@@ -84,50 +84,33 @@ p {
   padding: 120px 30px;
 }
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 42px;
-  }
-
-  .hero {
-    padding: 18px 10px;
-  }
-
-  .description-yogurt-project {
-    padding: 0;
-    text-align: center;
-  }
-
-  .about-container {
-    text-align: center;
-    padding: 0;
-  }
-
-  .img-profile {
-    text-align: center;
-  }
-}
-
-.about-container {
+.content-container {
   padding: 160px 30px;
   margin: 48px;
 }
 
-.about-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--font-family-heading);
 }
 
-.about-section-content {
+.content h3 {
+  line-height: 2px;
+  font-size: 24px;
+
+  font-family: var(--font-family-heading);
+}
+
+.contnet p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
 
@@ -143,10 +126,6 @@ p {
   line-height: 27px;
   padding: 18px 30px;
   border-radius: 4px;
-}
-
-.content-container {
-  padding: 60px 20px;
 }
 
 .social-links a {
@@ -167,4 +146,32 @@ p {
 .coded {
   text-align: center;
   font-weight: normal;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .hero {
+    padding: 18px 10px;
+  }
+
+  .description-yogurt-project {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .img-profile {
+    text-align: center;
+  }
 }
