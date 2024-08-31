@@ -101,10 +101,47 @@ p {
     padding: 0;
     text-align: center;
   }
+
+  .about-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .img-profile {
+    text-align: center;
+  }
 }
 
 .about-container {
-  padding: 60px 20px;
+  padding: 160px 30px;
+}
+
+.about-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-container h2 {
+  font-size: 18px;
+  font-family: var(--font-family-heading);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.img-profile {
+  max-width: 83%;
+  border-radius: 10px;
+}
+
+.btn-branding {
+  background: var(--main-branding);
+  color: ivory;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 4px;
 }
 
 .content-container {
