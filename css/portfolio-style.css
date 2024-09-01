@@ -15,7 +15,7 @@ h2 {
   font-size: 62px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -69,7 +69,7 @@ nav a:hover nav li.active a {
 .hero {
   background: #e7eaf6;
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
   margin: auto;
 }
 
