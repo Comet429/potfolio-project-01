@@ -119,8 +119,7 @@ nav a:hover nav li.active a {
 }
 
 .content-container {
-  padding: 60px 30px;
-  margin: 48px;
+  padding: 95px 30px;
 }
 
 .content h1 {
@@ -208,11 +207,15 @@ footer .social-link a {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 40px;
+    font-size: 39px;
   }
 
   h2 {
-    font-size: 42px;
+    font-size: 37px;
+  }
+
+  h3 {
+    font-size: 35px;
   }
 
   .hero {
@@ -222,6 +225,10 @@ footer .social-link a {
   .description-yogurt-project {
     padding: 0;
     text-align: center;
+  }
+
+  .content h1 {
+    font-size: 40px;
   }
 
   .content {
