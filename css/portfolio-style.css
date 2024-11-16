@@ -120,6 +120,7 @@ nav a:hover nav li.active a {
 
 .content-container {
   padding: 95px 30px;
+  text-align: center;
 }
 
 .content h1 {
@@ -167,7 +168,7 @@ footer {
 
 footer .contact-box {
   background: #e7eaf6;
-  padding: 30px 120px;
+  padding: 20px 220px;
   border-radius: 10px;
 }
 
